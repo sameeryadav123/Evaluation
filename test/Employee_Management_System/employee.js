@@ -109,26 +109,4 @@ order.addEventListener("change",salaryOrder)
 
 
 
-let btn1=document.querySelector("prevBtn")
-let btn2=document.createElement("nextBtn")
 
-
-let previousDec=(url1)=>{
-    let url1=`https://dbioz2ek0e.execute-api.ap-south-1.amazonaws.com/mockapi/get-employees?page=1&limit=${index}`
-
- 
-    let index= url1
-
-    return index--
-  
-}
-
-let nextInc=(url2)=>{
-
-    let url2=`https://dbioz2ek0e.execute-api.ap-south-1.amazonaws.com/mockapi/get-employees?page=1&limit=${index}`
-    
-    let index=url2
-
-    index++
-
-}
